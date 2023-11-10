@@ -1,3 +1,18 @@
 <resources>
     <string name="app_name">EcoEnergy05</string>
+    <string name="register">Registre su consumo</string>
+    <string name="name_app">ECO ENERGY</string>
+    <string name="formu">FORMULARIO</string>
+    <string name="name">Nombre</string>
+    <string name="address">Dirección</string>
+    <string name="phone">Teléfono</string>
+    <string name="email">Correo</string>
+    <string name="house">Casa</string>
+    <string name="apto">Apartamento</string>
+    <string name="rural">Rural</string>
+    <string name="solar">Paneles Solares</string>
+    <string name="aero">Aerogeneradores</string>
+    <string name="others">Otros Sistemas de Energías Renovables</string>
+    <string name="summit">Enviar</string>
+    <string name="todos">TODOS A LA U</string>
 </resources>

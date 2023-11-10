@@ -20,7 +20,7 @@
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        android:text="ECO ENERGY" />
+        android:text="@string/name_app" />
 
     <LinearLayout
         android:layout_width="wrap_content"
@@ -39,30 +39,34 @@
             android:layout_marginBottom="20sp"
             android:textSize="26sp"
             android:textColor="@color/ecocolor"
-            android:text="FORMULARIO" />
+            android:text="@string/formu" />
 
         <EditText
             android:id="@+id/eT1"
             style="@style/style_editText"
-            android:hint="Nombre"
+            android:hint="@string/name"
+            android:autofillHints="name"
             android:inputType="text" />
 
         <EditText
             android:id="@+id/eT2"
             style="@style/style_editText"
-            android:hint="Dirección"
+            android:autofillHints="address"
+            android:hint="@string/address"
             android:inputType="text" />
 
         <EditText
             android:id="@+id/eT3"
             style="@style/style_editText"
-            android:hint="Teléfono"
+            android:hint="@string/phone"
+            android:autofillHints="phone"
             android:inputType="phone" />
 
         <EditText
             android:id="@+id/eT4"
             style="@style/style_editText"
-            android:hint="Correo"
+            android:hint="@string/email"
+            android:autofillHints="emailAddress"
             android:inputType="textEmailAddress" />
 
         <RadioGroup
@@ -75,19 +79,19 @@
                 android:id="@+id/rB1"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="Casa" />
+                android:text="@string/house" />
 
             <RadioButton
                 android:id="@+id/rB2"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="Apartamento" />
+                android:text="@string/apto" />
 
             <RadioButton
                 android:id="@+id/rB3"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="Rural" />
+                android:text="@string/rural" />
 
         </RadioGroup>
 
@@ -100,20 +104,20 @@
                 android:id="@+id/cB1"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="Paneles Solares" />
+                android:text="@string/solar" />
 
             <CheckBox
                 android:id="@+id/cB2"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="Aerogeneradores" />
+                android:text="@string/aero" />
         </LinearLayout>
 
         <CheckBox
             android:id="@+id/cB3"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Otros Sistemas de Energías Renovables" />
+            android:text="@string/others" />
 
         <Button
             android:id="@+id/btn_enviar"
@@ -124,7 +128,7 @@
             android:textColor="@color/white"
             android:textSize="26sp"
             app:cornerRadius="15sp"
-            android:text="Enviar" />
+            android:text="@string/summit" />
 
     </LinearLayout>
 
@@ -141,6 +145,6 @@
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        android:text="TODOS A LA U" />
+        android:text="@string/todos" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
